@@ -3,7 +3,7 @@ To **use your Google Generative AI (GenAI) API key securely on GitHub for deploy
 ---
 
 ### ✅ Step-by-Step Guide
-
+## use python 3.13
 ---
 
 #### 🔐 1. **Get Your Google GenAI API Key**

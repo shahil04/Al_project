@@ -4,6 +4,10 @@ from utils.ai_suggester import get_ai_advice
 from utils.cleaner import clean_resume_text 
 import streamlit as st 
 import pdfplumber 
+import spacy
+
+# Load the English tokenizer, tagger, parser, NER and word vectors
+nlp = spacy.load("en_core_web_sm")
 
 
 st.set_page_config(page_title="AI Resume Analyzer", layout="wide")
